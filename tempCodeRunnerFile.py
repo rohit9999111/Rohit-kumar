@@ -1,0 +1,1 @@
+c.execute('UPDATE users SET isVoted = TRUE WHERE id = ?', (user_id,))
